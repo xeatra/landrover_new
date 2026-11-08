@@ -1,0 +1,17 @@
+/* Sales Partner Land Rover — Land Rover look (landrover.ro): black offer bar, white header with spaced wordmark,
+   square dark buttons #0C121C, light grey #F5F6F6 surfaces, no rounded corners, wide spaced capitals.
+   Proprietary LR fonts → Inter (OFL) for text; wordmarks in wide-tracked caps. */
+:root {
+  --bg: #FFFFFF; --surface: #FFFFFF; --surface-2: #F5F6F6; --line: #E4E6E6;
+  --text: #2B2F33; --mute: #6A7075; --ink: #0C121C;
+  --brand: #0C121C; --brand-2: #1A222D; --on-brand: #FFFFFF;
+  --accent: #0C121C; --accent-ink: #FFFFFF; --accent-soft: #EEF0F0;
+  --price: #0C121C; --ok: #2E7D4F; --warn: #A86A00; --err: #B3261E;
+  --hero-overlay: linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.05) 40%, rgba(0,0,0,.55) 100%);
+  --f-head: 'Inter', 'Helvetica Neue', Arial, sans-serif; --f-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --head-weight: 500; --head-case: uppercase; --head-track: .06em;
+  --r: 0px; --r-lg: 0px; --r-btn: 0px;
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 12px 30px -16px rgba(0,0,0,.25);
+  --plate: #FFFFFF; --hero-text: #FFFFFF; --top-bg: #141414; --top-text: #FFFFFF; --foot-bg: #0C121C; --foot-text: #BFC4C8;
+  color-scheme: light;
+}
